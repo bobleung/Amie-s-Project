@@ -1,4 +1,6 @@
 AmieSystem::Application.routes.draw do
+  resources :recipes
+
   resources :users
 
   # The priority is based upon order of creation:
